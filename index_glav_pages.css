@@ -1,0 +1,241 @@
+body{
+    text-align: center;
+    background-color: rgba(255, 166, 0, 0.358);
+    width: 100%;
+}
+
+header{
+    background-color: orange;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.flex_h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.HC{
+    margin-bottom: 50px;
+    font-family: monospace;
+    letter-spacing: 30px;
+    font-size: 70px;
+    color: rgb(255, 0, 153);
+    text-shadow: 
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff;
+        /*0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;*/
+}
+
+.cat2{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.flex_header{
+    display: flex;
+    margin: 15px;
+    justify-content: space-around;
+    font-size: 35px;
+}
+
+.button_header{
+    background-color: rgb(252, 71, 179);
+    border: 2px solid black;
+    border-radius: 10%;
+    transition: 1s;
+    font-size: 50px;
+    margin: 0% 5% 0% 5%;
+    display: flex;
+    align-items: center;
+}
+
+.button_header:hover{
+    background-color: white;
+    transition: 1s;
+}
+
+/*.viva_flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.viva{
+    position: sticky;
+    height: 400px;
+    width: 300px;
+}*/
+
+.menu_main1{
+    text-align: left;
+    font-size: 70px;
+    color: rgb(34, 2, 63);
+    font-weight: 600;
+    margin:10% 0% 5% 5%;
+    width: 100%;
+}
+
+/*li:hover{
+    color: rgb(83, 6, 155);
+    width: 350px;
+}*/
+
+.food{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.food:hover{
+    box-shadow: 0 0 5px 5px orange;
+    transition: 0.2s
+}
+
+.food_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.food_sam{
+    width: 500px;
+    height: 500px;
+    margin-top: 70px;
+}
+
+/*.opisanie_flex{
+    display: inline;
+    position: absolute;
+}*/
+
+.opisanie{
+    font-size: 45px;
+    font-weight:bold;
+    color: rgb(34, 2, 63);
+    border: 2px solid black;
+
+}
+
+.rovn_flex{
+    flex-direction: column;
+    align-items: center;
+}
+
+.hh1{
+    color: rgb(34, 2, 63);
+    margin-top: 150px;
+    font-size: 450%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(34, 2, 63);
+}
+a:hover{
+    color: rgb(83, 6, 155);
+}
+
+.blox{
+    height: 250px;
+}
+
+.opisanie_sam{
+    font-size: 65px;
+    color: rgb(34, 2, 63);
+}
+
+.last_link{
+    font-size: 35px;
+    color: rgb(34, 2, 63);
+    font-weight: 600;
+    width: 350px;
+    margin-top: 20%;
+}
+
+.price_tag{
+    display: inline;
+    position: absolute;
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 95px; 
+    font-size: 25px; 
+    z-index: 2;
+    /*display: flex;
+    justify-content: space-evenly;*/
+    margin-left: -170px;
+}
+
+.price_buy{
+    font-size: 70px;
+    background-color: rgb(252, 71, 179);
+    border: 2px solid black;
+    border-radius: 10%;
+    transition: 1s;  
+}
+
+.price_buy:hover{
+    background-color: white;
+    transition: 1s;
+}
+
+.marginn{
+    margin-top: 90px;
+}
+
+.flex_for_rovn{
+    display: flex;
+    align-items: center;
+}
+
+tr{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(min_width:768px){
+    .price_buy{
+        font-size: 30px;
+        background-color: rgb(252, 71, 179);
+        border: 2px solid black;
+        border-radius: 10%;
+        transition: 1s; 
+    }
+
+    .HC{
+        font-size: 20px;
+    }
+
+    .button_header{
+        font-size: 70px;
+    }
+
+    .menu_main1{
+        font-size: 45px;
+    }
+
+}
+
+@media(min_width:1024px){
+    .price_buy{
+        font-size: 20px;
+        background-color: rgb(252, 71, 179);
+        border: 2px solid black;
+        border-radius: 10%;
+        transition: 1s; 
+    }
+    .button_header{
+        font-size: 50px;
+    }
+}
